@@ -4,6 +4,11 @@ A pair of scripts to enable clickable controls for the Spotify client on [Polyba
 
 ![Image of the bar](./bar.png)
 
+## Dependencies
+
+-   Python
+-   dbus
+
 ## Setup
 
 First of all, we're gonna need the polybar-spotify script develop by Jesse van Rhijn (https://github.com/Jvanrhijn/polybar-spotify).
@@ -49,3 +54,7 @@ In this case, I left both scripts in the .scripts directory in my home.
 **Make sure to have both scripts with executable privileges with chmod +x!**
 
 There's definitely ways in which this solution could be improved but for now it works!
+
+## Credits
+
+Based on [Dieter Van Hoof](https://github.com/dietervanhoof/polybar-spotify-controls) solution.
